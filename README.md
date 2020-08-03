@@ -30,3 +30,7 @@ For this purpose, four 74LS160A ICs were used to build a synchronous decade coun
 ### Decoder and 7 Segment Display :
 The outputs of decade counter were connected to input pins of 4 BCD to 7 segment decoder ICs.<br> 
 Finally the ouputs of decoder ICs were fed to the seven segment displays of common anode type.
+
+<video width="320" height="240" controls>
+  <source src="video.mov" type="video/mp4">
+</video>
