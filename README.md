@@ -22,11 +22,11 @@ Debounce circuit was made for the push button using passive components and schmi
 <img src="https://github.com/anant19bansal/Digital-Stop-Watch/blob/master/Debounce%20and%20FSM.png" width="" height=""><br>
 A finite machine was made to change the state of the stopwatch using JK flipflops. The output of debounce circuit was given as clock to the flipflops. RESET(00) -> START(11) -> STOP(10) -> RESET(00)
 
-### Synchronous Decade Counter
+### Synchronous Decade Counter :
 For this purpose, four 74LS160A ICs were used to build a synchronous decade counter. 74LS160A is a high speed counter and features a fully independent clock circuit. ENP, ENT and Clear_bar pins of this IC were used to modify the operating mode of the stopwatch. 
 
 <img src = "https://github.com/anant19bansal/Digital-Stop-Watch/blob/master/Synchronous%20BCD%20counter.png" width="80%" height="80%">
 
-### Decoder and 7 Segment Display
+### Decoder and 7 Segment Display :
 The outputs of decade counter were connected to input pins of 4 BCD to 7 segment decoder ICs.<br> 
 Finally the ouputs of decoder ICs were fed to the seven segment displays of common anode type.
