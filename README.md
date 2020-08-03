@@ -31,6 +31,8 @@ For this purpose, four 74LS160A ICs were used to build a synchronous decade coun
 The outputs of decade counter were connected to input pins of 4 BCD to 7 segment decoder ICs.<br> 
 Finally the ouputs of decoder ICs were fed to the seven segment displays of common anode type.
 
+<img src = "https://github.com/anant19bansal/Digital-Stop-Watch/blob/master/Stop%20watch.png">
+
 <video width="320" height="240" controls>
   <source src="video.mov" type="video/mp4">
 </video>
