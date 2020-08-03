@@ -19,7 +19,7 @@ We designed a stop watch with 4 digit display showing seconds and 1/100 second. 
    
 ## Debounce Circuit and FSM :
 Debounce circuit was made for the push button using passive components and schmitt trigger to prevent the signal from bouncing due to the vibrations of the plates. 
-<img src="https://github.com/anant19bansal/Digital-Stop-Watch/blob/master/Debounce%20and%20FSM.png" width="" height="">
+<img src="https://github.com/anant19bansal/Digital-Stop-Watch/blob/master/Debounce%20and%20FSM.png" width="" height=""><br>
 A finite machine was made to change the state of the stopwatch using JK flipflops. The output of debounce circuit was given as clock to the flipflops. RESET(00) -> START(11) -> STOP(10) -> RESET(00)
 
 ## Synchronous Decade Counter
