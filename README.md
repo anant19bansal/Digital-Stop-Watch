@@ -10,7 +10,7 @@ We designed a stop watch with 4 digit display showing seconds and 1/100 second. 
 <img src="https://github.com/anant19bansal/Digital-Stop-Watch/blob/master/Hardware%20and%20ICs%20used.jpg" width="50%" height="50%">  
 
 ### Clock Generation:
-555 timer IC was configured in astable multivibrator mode to generate the clock with time period approximately equal to 10ms. 
+555 timer IC was configured in astable multivibrator mode to generate the clock with time period approximately equal to 10ms. <br>
 <img src="https://github.com/anant19bansal/Digital-Stop-Watch/blob/master/Clock%20using%20555%20timer%20IC.png" width="70%" height="70%">
 * Values of external passive components taken :
    * Ra = 100 ohm
